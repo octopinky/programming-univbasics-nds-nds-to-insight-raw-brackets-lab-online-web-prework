@@ -5,7 +5,7 @@ def directors_totals(nds)
   result = {
   }
   nds.each do |movie|
-  result << movie[:name]
+  result => movie[:name]
   end
   pp result
   # Remember, it's always OK to pretty print what you get *in* to make sure
