@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   nds.each do |movie|
-  pp movie[:worldwide_gross]
+  pp movie[:name]
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
